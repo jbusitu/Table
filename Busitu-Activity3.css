@@ -1,0 +1,70 @@
+/*ITIS 3135 Activity 3 css file*/
+
+/*styling for the body goes here*/
+body 
+{
+	width: 750px;
+	margin: 0 auto;
+}
+
+/*Styling for the table goes here*/
+table 
+{
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: 20px;
+}
+
+/*styling for thead goes here*/
+thead 
+{
+	background-color: lightgreen;
+}
+
+/*styling for th, td goes here*/
+th, td 
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+/*styling for a class text alignment to the right goes here*/
+.right 
+{
+	text-align: right;
+}
+
+/*styling for the tbody goes here*/
+tbody tr:nth-child(even) td
+{
+	background-color: yellow;
+}
+
+/* styling for caption goes here*/
+
+caption
+{
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+/*styling for tfoot goes here*/
+tfoot
+{
+	background-color: lightgreen;
+}
+
+#editorial, #marketing, #customerService {
+	vertical-align: top;
+}
+
+/*styling for div goes her top right bottom left*/
+div
+{
+	border: 1px solid black;  /*top right bottom left*/
+	padding: 20px;
+	margin: 20px;
+}
